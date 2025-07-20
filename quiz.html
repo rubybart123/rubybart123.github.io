@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+	body {
+		background-color: white;
+		margin: 0;
+	}
+	
+	h1 {
+       background: -webkit-linear-gradient(350deg, #22c1c3, #fd2df5);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       text-align: center;
+	   font-size: 40px;
+     } 
+	 
+	h3 {
+		  font-family: "Oswald", sans-serif;
+		  background: -webkit-linear-gradient(350deg, #22c1c3, #fd2df5);
+		  -webkit-background-clip: text;
+		  -webkit-text-fill-color: transparent;
+		   text-align: center;
+	}
+
+	label {
+       background: -webkit-linear-gradient(350deg, #22c1c3, #fd2df5);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       text-align: center;
+    }
+	 
+	#box1 {
+			height: 57%; 
+			width: 100%;
+			background-color: white;
+			margin: 0;
+	}
+	
+	#box2 {
+			height: 10%; 
+			width: 100%;
+			background-color: white;
+			margin: 0;
+	}
+	
+	#box3 {
+			height: 65%; 
+			width: 100%;
+			background-color: white;
+			margin: 0;
+	}
+	
+	#fieldset {
+			height: 65%; 
+			width: 100%;
+			background-color: white;
+			margin: 0;
+	}
+	
+	.button {
+	  background-color: #57ba98;
+	  border-radius: 25px;
+	  border: 4px;
+	  border-color: black;
+	  padding: 16px 32px;
+	  font-family: monospace;
+	  font-size: 20px;
+	  color: #ffffff;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+	}
+
+	.button1 {
+	  background-color: #57ba98; 
+	  color: #FFFFFF; 
+	  border: 2px solid #04AA6D;
+	}
+
+	.button1:hover {
+	  background-color: #04AA6D;
+	  color: white;
+	}
+	
+	.button2 {
+	  background-color: #57ba98; 
+	  color: #FFFFFF; 
+	  border: 2px solid #04AA6D;
+	}
+
+	.button2:hover {
+	  background-color: #04AA6D;
+	  color: white;
+	}
+	
+	.button3 {
+	  background-color: #57ba98; 
+	  color: #FFFFFF; 
+	  border: 2px solid #04AA6D;
+	}
+
+	.button3:hover {
+	  background-color: #04AA6D;
+	  color: white;
+	}
+	
+	.button4 {
+	  background-color: #57ba98; 
+	  color: #FFFFFF; 
+	  border: 2px solid #04AA6D;
+	}
+
+	.button4:hover {
+	  background-color: #04AA6D;
+	  color: white;
+	}
+	
+	</style>
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <title>Dog Finder Quiz</title>
+	  <link href="style.css" rel="stylesheet" type="text/css" />
+	  <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="box1">
+			<div class="cover">
+				<h1 id="title-heading" class="h1"> What Breed Of Dog Best Suits Your Lifestyle? </h1>
+				<img id= "image1" src="../Dog Quiz/Images/dog_owner.jpg">
+				<br>
+				<br>
+			</div>
+		</div>
+		<div id="box2">
+			<button id="lightButton" type="button" class="button button1" >Light</button>
+			<button id="darkButton" type="button" class="button button2" >Dark</button>
+		</div>
+	  <div id="box3">
+		<br>
+		<br>
+		   <form id="theForm" class="questions" action="../Project/quiz.html" method="post">
+			<fieldset id="fieldset">
+				<h3 id="dog-info" class="h3"> 1. How big do you want your dog to be: Giant (45kg+), Large (27-45kg), Medium (11-26kg), or Small (0-10kg)? </h3>
+				  <input type="radio" id="size1" name="dogSize" value="Giant">
+				  <label for="Giant">Giant</label>
+				  <input type="radio" id="size2" name="dogSize" value="Large">
+				  <label for="Large">Large</label>
+				  <input type="radio" id="size3" name="dogSize" value="Medium">
+				  <label for="Medium">Medium</label>
+				  <input type="radio" id="size4" name="dogSize" value="Small">
+				  <label for="Small">Small</label>
+				</br>
+				<h3 id="other1" class="h3"> 2. Do you want your dog to be kid friendly? </h3>
+				  <input type="radio" id="kid1" name="kidFriendly" value="Yes">
+				  <label for="Yes">Yes</label>
+				  <input type="radio" id="kid2" name="kidFriendly" value="No">
+				  <label for="No">No</label>
+				</br>
+				<h3 id="other2" class="h3"> 3. How energetic do you want your dog to be? High, Medium, or Small?  </h3>
+				  <input type="radio" id="energy1" name="dogEnergy" value="High">
+				  <label for="High">High</label>
+				  <input type="radio" id="energy2" name="dogEnergy" value="Medium">
+				  <label for="Medium">Medium</label>
+				  <input type="radio" id="energy3" name="dogEnergy" value="Small">
+				  <label for="Small">Small</label>
+				</br>
+				<h3 id="other3" class="h3"> 4. How much exercise do you want your dog to have? High, Medium, or Small?  </h3>
+				  <input type="radio" id="exercise1" name="dogExercise" value="High">
+				  <label for="High">High</label>
+				  <input type="radio" id="exercise2" name="dogExercise" value="Medium">
+				  <label for="Medium">Medium</label>
+				  <input type="radio" id="exercise3" name="dogExercise" value="Small">
+				  <label for="Small">Small</label>
+				</br>
+				<h3 id="other4" class="h3"> 5. What range of barking do you want your dog to have? High, Medium, or Small?  </h3>
+				  <input type="radio" id="barking1" name="dogBarking" value="High">
+				  <label for="High">High</label>
+				  <input type="radio" id="barking2" name="dogBarking" value="Medium">
+				  <label for="Medium">Medium</label>
+				  <input type="radio" id="barking3" name="dogBarking" value="Small">
+				  <label for="Small">Small</label>
+				</br>
+				<h3 id="other5" class="h3"> 6. Do you mind if your dog sheds? Yes, Kinda, No?  </h3>
+				  <input type="radio" id="shed1" name="dogShedding" value="Yes">
+				  <label for="Yes">Yes</label>
+				  <input type="radio" id="shed2" name="dogShedding" value="Kinda">
+				  <label for="Kinda">Kinda</label>
+				  <input type="radio" id="shed3" name="dogShedding" value="No">
+				  <label for="No">No</label>
+				</br>
+				</br>
+				</br>
+				</br>
+				<div class="result">
+					<input name="results" type="button" class="button button3" value="Submit!" onclick="calculateScore()" />
+				</br>
+				</br>
+				<h1 id="breed"></h1>
+				<img id= "image2" src="">
+				<h3 id="info" class="h3"></h3>
+				<br>
+				<br>
+				<input name="refresh" type="button" class="button button4" value="Refresh!" onclick="location.reload()" />
+			</div>
+		</fieldset>
+	  </form>
+	  </br>
+	  <script src="script.js"></script>
+	</body>
+</html>
