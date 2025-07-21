@@ -928,3 +928,5 @@ function calculateScore() {
 		document.getElementById('image2').src = "../Dog Quiz/Images/cavalier_image.jpg";
 	}
 }	
+
+	
