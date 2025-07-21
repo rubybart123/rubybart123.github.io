@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-size:40px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  background: -webkit-linear-gradient(350deg, #22c1c3, #fd2df5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.cover{
+  text-align: center;
+}
+
+.p.350deg, #22c1c3, #fd2df5 {
+  font-family: "Oswald", sans-serif;
+  background: -webkit-linear-gradient(350deg, #22c1c3, #fd2df5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   text-align: center;
+}
+
+.p.350deg, #9381FF, #F8F7FF {
+  font-family: "Oswald", sans-serif;
+  background: -webkit-linear-gradient(350deg, #22c1c3, #fd2df5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   text-align: center;
+}
+
+.coverPhoto {
+  width: 100%;
+}
+
+.displayResult{
+  text-align: center;
+}
+
+img{
+  width: 30%;
+  height: 30%
+}
+
+submit{
+  margin-top: 10px;
+  color: white;
+  background-color: #57ba98;
+  font-size: 40px;
+  border-radius: 25px;
+  border:4px groove black;
+  font-family: monospace;
+  padding: 20px;
+}
