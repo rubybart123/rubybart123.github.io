@@ -865,67 +865,67 @@ function calculateScore() {
 	if ( (chiPoints < labPoints) && (chiPoints < gdPoints) && (chiPoints < sbPoints) && (chiPoints < iwPoints) && (chiPoints < leoPoints) && (chiPoints < gerPoints) && (chiPoints < sibPoints) && (chiPoints < dobPoints) && (chiPoints < borPoints) && (chiPoints < bosPoints) && (chiPoints < beaPoints) && (chiPoints < staPoints) && (chiPoints < dacPoints) && (chiPoints < schPoints) && (chiPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Chihuahua!";
 		document.getElementById("info").innerHTML = "Chihuahuas are small dogs. They are intelligent and trainable, high in energy levels, need low exercise, have high barking habits, and not so bad shedding";
-		document.getElementById('image2').src = "../Dog Quiz/Images/chihuahua_image.jpg";
+		document.getElementById('image2').src = "Images/chihuahua_image.jpg";
 	} else if ( (labPoints < chiPoints) && (labPoints < gdPoints) && (labPoints < sbPoints) && (labPoints < iwPoints) && (labPoints < leoPoints) && (labPoints < gerPoints) && (labPoints < sibPoints) && (labPoints < dobPoints) && (labPoints < borPoints) && (labPoints < bosPoints) && (labPoints < beaPoints) && (labPoints < staPoints) && (labPoints < dacPoints) && (labPoints < schPoints) && (labPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Labrador Retriever!";
 		document.getElementById("info").innerHTML = "Labrador Retrievers are playful dogs. Labrador retrievers are also great disability assistance dogs. They are large, very kid-friendly, high in energy, need lots of exercise, their barking habits aren't so bad, and they tend to shed a lot. But they're adorable!";
-		document.getElementById('image2').src = "../Dog Quiz/Images/LR_image.jpg";
+		document.getElementById('image2').src = "Images/LR_image.jpg";
 	} else if ( (gdPoints < labPoints) && (gdPoints < chiPoints) && (gdPoints < sbPoints) && (gdPoints < iwPoints) && (gdPoints < leoPoints) && (gdPoints < gerPoints) && (gdPoints < sibPoints) && (gdPoints < dobPoints) && (gdPoints < borPoints) && (gdPoints < bosPoints) && (gdPoints < beaPoints) && (gdPoints < staPoints) && (gdPoints < dacPoints) && (gdPoints < schPoints) && (gdPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Great Dane!";
 		document.getElementById("info").innerHTML = "Great Danes are huge dogs! They're very kid-friendly, though. They have not-so-bad energy levels, need not so much exercise, and don't bark that much. Their only weakness is that they shed a lot! They're the perfect dog for you!";
-		document.getElementById('image2').src = "../Dog Quiz/Images/greatdane_image.jpg";
+		document.getElementById('image2').src = "Images/greatdane_image.jpg";
 	} else if ( (sbPoints < labPoints) && (sbPoints < chiPoints) && (sbPoints < gdPoints) && (sbPoints < iwPoints) && (sbPoints < leoPoints) && (sbPoints < gerPoints) && (sbPoints < sibPoints) && (sbPoints < dobPoints) && (sbPoints < sbPoints) && (sbPoints < bosPoints) && (sbPoints < beaPoints) && (sbPoints < staPoints) && (sbPoints < dacPoints) && (sbPoints < schPoints) && (sbPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Saint Bernard!!";
 		document.getElementById("info").innerHTML = "Saint B's are fluffy and amazing! They love kids, have medium energy, need medium amounts of exercise, have low rates of barking, and they're not bad shedders! You should get one!";
-		document.getElementById('image2').src = "../Dog Quiz/Images/saintb_image.jpg";
+		document.getElementById('image2').src = "Images/saintb_image.jpg";
 	} else if ( (iwPoints < labPoints) && (iwPoints < chiPoints) && (iwPoints < gdPoints) && (iwPoints < sbPoints) && (iwPoints < leoPoints) && (iwPoints < gerPoints) && (iwPoints < sibPoints) && (iwPoints < dobPoints) && (iwPoints < borPoints) && (iwPoints < bosPoints) && (iwPoints < beaPoints) && (iwPoints < staPoints) && (iwPoints < dacPoints) && (iwPoints < schPoints) && (iwPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Irish Wolfhound";
 		document.getElementById("info").innerHTML = "The gentle giant. They're good with kids, have medium energy levels, low levels of barking, don't shed that much, and need lots of exercise. They're perfect for hikers and athletic families!";
-		document.getElementById('image2').src = "../Dog Quiz/Images/irishwolfhound_image.jpg";
+		document.getElementById('image2').src = "Images/irishwolfhound_image.jpg";
 	} else if ( (leoPoints < labPoints) && (leoPoints < chiPoints) && (leoPoints < gdPoints) && (leoPoints < sbPoints) && (leoPoints < iwPoints) && (leoPoints < gerPoints) && (leoPoints < sibPoints) && (leoPoints < dobPoints) && (leoPoints < borPoints) && (leoPoints < bosPoints) && (leoPoints < beaPoints) && (leoPoints < staPoints) && (leoPoints < dacPoints) && (leoPoints < schPoints) && (leoPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Leonberger!";
 		document.getElementById("info").innerHTML = "The fluffiest dog you can imagine! They adore kids and need moderate exercise. Their energy levels are average, and so is their barking. I hope you don't mind the shedding!";
-		document.getElementById('image2').src = "../Dog Quiz/Images/leonberger-image.jpg";
+		document.getElementById('image2').src = "Images/leonberger-image.jpg";
 	} else if ( (gerPoints < labPoints) && (gerPoints < chiPoints) && (gerPoints < gdPoints) && (gerPoints < sbPoints) && (gerPoints < iwPoints) && (gerPoints < leoPoints) && (gerPoints < sibPoints) && (gerPoints < dobPoints) && (gerPoints < borPoints) && (gerPoints < bosPoints) && (gerPoints < beaPoints) && (gerPoints < staPoints) && (gerPoints < dacPoints) && (gerPoints < schPoints) && (gerPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a German Shepherd!";
 		document.getElementById("info").innerHTML = "They are very high maintenance; they shed a bunch, bark a lot, need lots of exercise, and have a lot of energy. But hey! They love kids! German shepherds are guard dogs, normally found in use with the military and police departments. They’re loyal, easily trained, and known as one of the world’s top workers.";
-		document.getElementById('image2').src = "../Dog Quiz/Images/germanshepherd_image.jpg";
+		document.getElementById('image2').src = "Images/germanshepherd_image.jpg";
 	} else if ( (sibPoints < labPoints) && (sibPoints < chiPoints) && (sibPoints < gdPoints) && (sibPoints < sbPoints) && (sibPoints < iwPoints) && (sibPoints < leoPoints) && (sibPoints < gerPoints) && (sibPoints < dobPoints) && (sibPoints < borPoints) && (sibPoints < bosPoints) && (sibPoints < beaPoints) && (sibPoints < staPoints) && (sibPoints < dacPoints) && (sibPoints < schPoints) && (sibPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Siberian Husky!";
 		document.getElementById("info").innerHTML = "Stubborn sweethearts. Huskies love kids, and they've got lots of energy. They need a lot of exercise, they don't shed too much, and they bark a lot";
-		document.getElementById('image2').src = "../Dog Quiz/Images/husky_image.jpg";
+		document.getElementById('image2').src = "Images/husky_image.jpg";
 	} else if ( (dobPoints < labPoints) && (dobPoints < chiPoints) && (dobPoints < gdPoints) && (dobPoints < sbPoints) && (dobPoints < iwPoints) && (dobPoints < leoPoints) && (dobPoints < gerPoints) && (dobPoints < sibPoints) && (dobPoints < borPoints) && (dobPoints < bosPoints) && (dobPoints < beaPoints) && (dobPoints < staPoints) && (dobPoints < dacPoints) && (dobPoints < schPoints) && (dobPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Doberman Pinscher!";
 		document.getElementById("info").innerHTML = "Dobermans are intelligent and obedient dogs. They’re good with kids, have lots of energy to play, need moderate exercise, and they don’t bark so much. Plus, they barely shed!";
-		document.getElementById('image2').src = "../Dog Quiz/Images/doberman_image.jpg";
+		document.getElementById('image2').src = "Images/doberman_image.jpg";
 	} else if ( (borPoints < labPoints) && (borPoints < chiPoints) && (borPoints < gdPoints) && (borPoints < sbPoints) && (borPoints < iwPoints) && (borPoints < leoPoints) && (borPoints < gerPoints) && (borPoints < sibPoints) && (borPoints < dobPoints) && (borPoints < bosPoints) && (borPoints < beaPoints) && (borPoints < staPoints) && (borPoints < dacPoints) && (borPoints < schPoints) && (borPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Border Collie!";
 		document.getElementById("info").innerHTML = "Collies are amazing! Their intelligence and obedience are great for herding, using their barking and lots of energy to keep the animals under control. They adore kids and don’t shed too much. Make sure to give them lots of exercise!";
-		document.getElementById('image2').src = "../Dog Quiz/Images/collie_image.jpg";
+		document.getElementById('image2').src = "Images/collie_image.jpg";
 	} else if ( (bosPoints < labPoints) && (bosPoints < chiPoints) && (bosPoints < gdPoints) && (bosPoints < sbPoints) && (bosPoints < iwPoints) && (bosPoints < leoPoints) && (bosPoints < gerPoints) && (bosPoints < sibPoints) && (bosPoints < dobPoints) && (bosPoints < borPoints) && (bosPoints < beaPoints) && (bosPoints < staPoints) && (bosPoints < dacPoints) && (bosPoints < schPoints) && (bosPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Boston Terrier!";
 		document.getElementById("info").innerHTML = "Look at that face, aren’t they a good-looking dog? They’re perfect for families with kids, and they need moderate exercise and have moderate energy levels. They don’t bark often, and they hardly shed at all. Are they perfect or what?";
-		document.getElementById('image2').src = "../Dog Quiz/Images/boston_image.jpg";
+		document.getElementById('image2').src = "Images/boston_image.jpg";
 	} else if ( (beaPoints < labPoints) && (beaPoints < chiPoints) && (beaPoints < gdPoints) && (beaPoints < sbPoints) && (beaPoints < iwPoints) && (beaPoints < leoPoints) && (beaPoints < gerPoints) && (beaPoints < sibPoints) && (beaPoints < dobPoints) && (beaPoints < borPoints) && (beaPoints < bosPoints) && (beaPoints < staPoints) && (beaPoints < dacPoints) && (beaPoints < schPoints) && (beaPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Beagle!";
 		document.getElementById("info").innerHTML = "Beagles are lovable and loving dogs. Take them for rabbit hunts, and they’ll put their high energy to use and use their barking to scare off any pests at your home.";
-		document.getElementById('image2').src = "../Dog Quiz/Images/beagle_image.jpg";
+		document.getElementById('image2').src = "Images/beagle_image.jpg";
 	} else if ( (staPoints < labPoints) && (staPoints < chiPoints) && (staPoints < gdPoints) && (staPoints < sbPoints) && (staPoints < iwPoints) && (staPoints < leoPoints) && (staPoints < gerPoints) && (staPoints < sibPoints) && (staPoints < dobPoints) && (staPoints < borPoints) && (staPoints < bosPoints) && (staPoints < beaPoints) && (staPoints < dacPoints) && (staPoints < schPoints) && (staPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Stafford Bull Terrier!";
 		document.getElementById("info").innerHTML = "Sweet-tempered, highly intelligent and extremely courageous dogs. Got kids? They love them! Love walking? So do they! They don’t bark too much, barely shed, and have moderate energy! Quite the mix of stay-at-home and need-to-be-out dogs, aren’t they? ";
-		document.getElementById('image2').src = "../Dog Quiz/Images/staff_image.jpg";
+		document.getElementById('image2').src = "Images/staff_image.jpg";
 	} else if ( (dacPoints < labPoints) && (dacPoints < chiPoints) && (dacPoints < gdPoints) && (dacPoints < sbPoints) && (dacPoints < iwPoints) && (dacPoints < leoPoints) && (dacPoints < gerPoints) && (dacPoints < sibPoints) && (dacPoints < dobPoints) && (dacPoints < borPoints) && (dacPoints < bosPoints) && (dacPoints < beaPoints) && (dacPoints < staPoints) && (dacPoints < schPoints) && (dacPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Miniature Dachshund!";
 		document.getElementById("info").innerHTML = "Mini Dachshunds are one of the cutest dogs you’d ever see. Their coat types include smooth hair, long-haired, and wire-haired varieties. They’re a good family dog and need moderate exercise for their moderate energy. They bark a bit at visitors or strangers, and they do shed a bit, but they love tummy scratches!";
-		document.getElementById('image2').src = "../Dog Quiz/Images/Dachshund_image.jpg";
+		document.getElementById('image2').src = "Images/Dachshund_image.jpg";
 	} else if ( (staPoints < labPoints) && (schPoints < chiPoints) && (schPoints < gdPoints) && (schPoints < sbPoints) && (schPoints < iwPoints) && (schPoints < leoPoints) && (schPoints < gerPoints) && (schPoints < sibPoints) && (schPoints < dobPoints) && (schPoints < borPoints) && (schPoints < bosPoints) && (schPoints < beaPoints) && (schPoints < dacPoints) && (schPoints < staPoints) && (schPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Miniature Schnazuer!";
 		document.getElementById("info").innerHTML = "My lovelies! Mini Schnauzers are best dogs for family homes! They're breed to be guard dogs, so they use their bark to scare off any intruders! They hardly ever shed, little to none, need moderate exercise, and have moderate energy!";
-		document.getElementById('image2').src = "../Dog Quiz/Images/schnauzer_image.jpg";
+		document.getElementById('image2').src = "Images/schnauzer_image.jpg";
 	} else if ( (cavPoints < labPoints) && (cavPoints < chiPoints) && (cavPoints < gdPoints) && (cavPoints < sbPoints) && (cavPoints < iwPoints) && (cavPoints < leoPoints) && (cavPoints < gerPoints) && (cavPoints < sibPoints) && (cavPoints < dobPoints) && (cavPoints < borPoints) && (cavPoints < bosPoints) && (cavPoints < beaPoints) && (cavPoints < dacPoints) && (cavPoints < schPoints) && (cavPoints < staPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Cavalier King Charles Spaniel!";
 		document.getElementById("info").innerHTML = "Cavalier King Charles Spaniels are intelligent, trainable, happy, and affectionate dogs. They make great family dogs and companions. They are also a great choice for therapy dogs and have excellent obedience.";
-		document.getElementById('image2').src = "../Dog Quiz/Images/cavalier_image.jpg";
+		document.getElementById('image2').src = "Images/cavalier_image.jpg";
 	}
 }	
 
