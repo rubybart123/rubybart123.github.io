@@ -32,10 +32,10 @@ function darkchanger() {
 
 	function lightchanger() {
 		console.log("hi");
-		document.getElementById("box1").style.backgroundColor = "#ffffff";
-		document.getElementById("box2").style.backgroundColor = "#ffffff";
-		document.getElementById("box3").style.backgroundColor = "#ffffff";
-		document.getElementById("fieldset").style.backgroundColor = "#ffffff";
+		document.getElementById("box1").style.backgroundColor = "#FBF6EF";
+		document.getElementById("box2").style.backgroundColor = "#FBF6EF";
+		document.getElementById("box3").style.backgroundColor = "#FBF6EF";
+		document.getElementById("fieldset").style.backgroundColor = "#FBF6EF";
 	}
 
 function calculateScore() {
