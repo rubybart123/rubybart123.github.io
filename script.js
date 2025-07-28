@@ -1,5 +1,6 @@
 
 //style="background-color:#57ba98; color:#FFFFFF; border: 4px groove black; font-size: 40px; font-family: monospace; border-radius: 65px;"
+Content-Security-Policy: script-src 'self' 'unsafe-eval';
 
 let cavPoints = 0; 
 let chiPoints = 0;
