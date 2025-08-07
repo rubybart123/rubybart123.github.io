@@ -118,6 +118,17 @@
 	  color: white;
 	}
 	
+	.button5 {
+	  background-color: #57ba98; 
+	  color: #FFFFFF; 
+	  border: 2px solid #04AA6D;
+	}
+
+	.button5:hover {
+	  background-color: #04AA6D;
+	  color: white;
+	}
+	
 	</style>
 	<head>
 	  <meta charset="utf-8">
@@ -145,7 +156,7 @@
 		<br>
 		   <form id="theForm" class="questions" action="../Project/quiz.html" method="post">
 			<fieldset id="fieldset">
-				<h3 id="dog-info" class="h3"> 1. How big do you want your dog to be: Giant (45kg+), Large (27-45kg), Medium (11-26kg), or Small (0-10kg)? </h3>
+							<h3 id="dog-info" class="h3"> 1. How big do you want your dog to be: Giant (45kg+), Large (27-45kg), Medium (11-26kg), or Small (0-10kg)? </h3>
 				  <input type="radio" id="size1" name="dogSize" value="Giant">
 				  <label for="Giant">Giant</label>
 				  <input type="radio" id="size2" name="dogSize" value="Large">
@@ -161,7 +172,7 @@
 				  <input type="radio" id="kid2" name="kidFriendly" value="No">
 				  <label for="No">No</label>
 				</br>
-				<h3 id="other2" class="h3"> 3. How energetic do you want your dog to be? High, Medium, or Small?  </h3>
+				<h3 id="other2" class="h3"> 3. How energetic do you want your dog to be? Very, average, or not alot?  </h3>
 				  <input type="radio" id="energy1" name="dogEnergy" value="High">
 				  <label for="High">High</label>
 				  <input type="radio" id="energy2" name="dogEnergy" value="Medium">
@@ -169,7 +180,7 @@
 				  <input type="radio" id="energy3" name="dogEnergy" value="Small">
 				  <label for="Small">Small</label>
 				</br>
-				<h3 id="other3" class="h3"> 4. How much exercise do you want your dog to have? High, Medium, or Small?  </h3>
+				<h3 id="other3" class="h3"> 4. How much exercise do you want your dog to have? Lots, enough, or bare minimum?  </h3>
 				  <input type="radio" id="exercise1" name="dogExercise" value="High">
 				  <label for="High">High</label>
 				  <input type="radio" id="exercise2" name="dogExercise" value="Medium">
@@ -177,7 +188,7 @@
 				  <input type="radio" id="exercise3" name="dogExercise" value="Small">
 				  <label for="Small">Small</label>
 				</br>
-				<h3 id="other4" class="h3"> 5. What range of barking do you want your dog to have? High, Medium, or Small?  </h3>
+				<h3 id="other4" class="h3"> 5. How often do you mind your dog to bark? High, Medium, or Small?  </h3>
 				  <input type="radio" id="barking1" name="dogBarking" value="High">
 				  <label for="High">High</label>
 				  <input type="radio" id="barking2" name="dogBarking" value="Medium">
@@ -197,7 +208,9 @@
 				</br>
 				</br>
 				<div class="result">
-					<input name="results" type="button" class="button button3" value="Submit!" onclick="calculateScore()" >
+					<input name="results" type="button" class="button button3" value="Submit!" onclick="calculateScore()" > 
+					<br><br>
+					<input id="myButton" name="hide" type="button" class="button button4" value="Hide Image!">
 				</br>
 				</br>
 				<h1 id="breed"></h1>
@@ -207,9 +220,11 @@
 				<br>
 				<input name="refresh" type="button" class="button button4" value="Refresh!" onclick="location.reload()" />
 			</div>
-		</fieldset>
+			</fieldset>
 	  </form>
 	  </br>
 	  <script src="script.js"></script>
 	</body>
 </html>
+
+
