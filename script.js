@@ -1,4 +1,5 @@
-
+// Hide image of dog until you've done the quiz
+image2.style.display = "none";
 //style="background-color:#57ba98; color:#FFFFFF; border: 4px groove black; font-size: 40px; font-family: monospace; border-radius: 65px;"
 
 let cavPoints = 0; 
@@ -43,7 +44,21 @@ function calculateScore() {
   let result = document.querySelector(".result");
 
 	user = "hi";
+const myButton = document.getElementById("myButton");
+const image2 = document.getElementById("image2");
 	
+	myButton.addEventListener("click", event => {
+		
+		if(image2.style.display === "none"){
+			image2.style.display = "inline";
+			myButton.valueContent = "Hide!"; 
+		}
+			
+		else{
+			image2.style.display = "none";
+			myButton.valueContent = "Show!"; 
+		}
+	});
 
 
    
@@ -861,7 +876,7 @@ function calculateScore() {
 	cavPoints += 3;
 	};
 	
-	
+	image2.style.display = "inline";
 	if ( (chiPoints < labPoints) && (chiPoints < gdPoints) && (chiPoints < sbPoints) && (chiPoints < iwPoints) && (chiPoints < leoPoints) && (chiPoints < gerPoints) && (chiPoints < sibPoints) && (chiPoints < dobPoints) && (chiPoints < borPoints) && (chiPoints < bosPoints) && (chiPoints < beaPoints) && (chiPoints < staPoints) && (chiPoints < dacPoints) && (chiPoints < schPoints) && (chiPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Chihuahua!";
 		document.getElementById("info").innerHTML = "Chihuahuas are small dogs. They are intelligent and trainable, high in energy levels, need low exercise, have high barking habits, and not so bad shedding";
@@ -930,3 +945,4 @@ function calculateScore() {
 }	
 
 	
+
