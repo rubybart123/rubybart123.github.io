@@ -1,5 +1,9 @@
 // Hide image of dog until you've done the quiz
 image2.style.display = "none";
+
+
+// Hide image of dog until you've done the quiz
+image2.style.display = "none";
 //style="background-color:#57ba98; color:#FFFFFF; border: 4px groove black; font-size: 40px; font-family: monospace; border-radius: 65px;"
 
 let cavPoints = 0; 
@@ -45,7 +49,10 @@ function calculateScore() {
 
 	user = "hi";
 const myButton = document.getElementById("myButton");
-const image2 = document.getElementById("image2");
+	const image2 = document.getElementById("image2");
+	
+	const myButton = document.getElementById("myButton");
+	const image2 = document.getElementById("image2");
 	
 	myButton.addEventListener("click", event => {
 		
@@ -53,12 +60,14 @@ const image2 = document.getElementById("image2");
 			image2.style.display = "inline";
 			myButton.valueContent = "Hide!"; 
 		}
-			
+		
 		else{
 			image2.style.display = "none";
 			myButton.valueContent = "Show!"; 
 		}
-	});
+	};
+	
+	});	
 
 
    
@@ -877,6 +886,7 @@ const image2 = document.getElementById("image2");
 	};
 	
 	image2.style.display = "inline";
+		image2.style.display = "inline";
 	if ( (chiPoints < labPoints) && (chiPoints < gdPoints) && (chiPoints < sbPoints) && (chiPoints < iwPoints) && (chiPoints < leoPoints) && (chiPoints < gerPoints) && (chiPoints < sibPoints) && (chiPoints < dobPoints) && (chiPoints < borPoints) && (chiPoints < bosPoints) && (chiPoints < beaPoints) && (chiPoints < staPoints) && (chiPoints < dacPoints) && (chiPoints < schPoints) && (chiPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Chihuahua!";
 		document.getElementById("info").innerHTML = "Chihuahuas are small dogs. They are intelligent and trainable, high in energy levels, need low exercise, have high barking habits, and not so bad shedding";
@@ -917,11 +927,7 @@ const image2 = document.getElementById("image2");
 		document.getElementById("breed").innerHTML = "You should get a Border Collie!";
 		document.getElementById("info").innerHTML = "Collies are amazing! Their intelligence and obedience are great for herding, using their barking and lots of energy to keep the animals under control. They adore kids and don’t shed too much. Make sure to give them lots of exercise!";
 		document.getElementById('image2').src = "Images/collie_image.jpg";
-	} else if ( (bosPoints < labPoints) && (bosPoints < chiPoints) && (bosPoints < gdPoints) && (bosPoints < sbPoints) && (bosPoints < iwPoints) && (bosPoints < leoPoints) && (bosPoints < gerPoints) && (bosPoints < sibPoints) && (bosPoints < dobPoints) && (bosPoints < borPoints) && (bosPoints < beaPoints) && (bosPoints < staPoints) && (bosPoints < dacPoints) && (bosPoints < schPoints) && (bosPoints < cavPoints) ){
-		document.getElementById("breed").innerHTML = "You should get a Boston Terrier!";
-		document.getElementById("info").innerHTML = "Look at that face, aren’t they a good-looking dog? They’re perfect for families with kids, and they need moderate exercise and have moderate energy levels. They don’t bark often, and they hardly shed at all. Are they perfect or what?";
-		document.getElementById('image2').src = "Images/boston_image.jpg";
-	} else if ( (beaPoints < labPoints) && (beaPoints < chiPoints) && (beaPoints < gdPoints) && (beaPoints < sbPoints) && (beaPoints < iwPoints) && (beaPoints < leoPoints) && (beaPoints < gerPoints) && (beaPoints < sibPoints) && (beaPoints < dobPoints) && (beaPoints < borPoints) && (beaPoints < bosPoints) && (beaPoints < staPoints) && (beaPoints < dacPoints) && (beaPoints < schPoints) && (beaPoints < cavPoints) ){
+	}  else if ( (beaPoints < labPoints) && (beaPoints < chiPoints) && (beaPoints < gdPoints) && (beaPoints < sbPoints) && (beaPoints < iwPoints) && (beaPoints < leoPoints) && (beaPoints < gerPoints) && (beaPoints < sibPoints) && (beaPoints < dobPoints) && (beaPoints < borPoints) && (beaPoints < bosPoints) && (beaPoints < staPoints) && (beaPoints < dacPoints) && (beaPoints < schPoints) && (beaPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Beagle!";
 		document.getElementById("info").innerHTML = "Beagles are lovable and loving dogs. Take them for rabbit hunts, and they’ll put their high energy to use and use their barking to scare off any pests at your home.";
 		document.getElementById('image2').src = "Images/beagle_image.jpg";
@@ -943,6 +949,6 @@ const image2 = document.getElementById("image2");
 		document.getElementById('image2').src = "Images/cavalier_image.jpg";
 	}
 }	
-
 	
+
 
