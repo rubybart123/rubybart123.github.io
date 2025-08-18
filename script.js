@@ -1,27 +1,27 @@
 // Hide image of dog until you've done the quiz
 image2.style.display = "none";
 
-
-// Hide image of dog until you've done the quiz
-image2.style.display = "none";
 //style="background-color:#57ba98; color:#FFFFFF; border: 4px groove black; font-size: 40px; font-family: monospace; border-radius: 65px;"
 
 let cavPoints = 0; 
 let chiPoints = 0;
+let dacPoints = 0;
+let schPoints = 0;
+
+let beaPoints = 0;
+let borPoints = 0;
+let bosPoints = 0;
+let staPoints = 0;
+
+let dobPoints = 0;
+let gerPoints = 0;
+let labPoints = 0;
+let sibPoints = 0;
+
 let gdPoints = 0;
 let iwPoints = 0;
 let leoPoints = 0;
 let sbPoints = 0;
-let gerPoints = 0;
-let sibPoints = 0;
-let dobPoints = 0;
-let borPoints = 0;
-let staPoints = 0;
-let bosPoints = 0;
-let beaPoints = 0;
-let dacPoints = 0;
-let schPoints = 0;
-let labPoints = 0;
 
 document.getElementById("darkButton").addEventListener("click", darkchanger);
 document.getElementById("lightButton").addEventListener("click", lightchanger);
@@ -43,14 +43,11 @@ function darkchanger() {
 	}
 
 function calculateScore() {
-
+	console.log("Kiwi")
   let button = document.querySelector(".submit");
   let result = document.querySelector(".result");
 
 	user = "hi";
-const myButton = document.getElementById("myButton");
-	const image2 = document.getElementById("image2");
-	
 	const myButton = document.getElementById("myButton");
 	const image2 = document.getElementById("image2");
 	
@@ -65,9 +62,9 @@ const myButton = document.getElementById("myButton");
 			image2.style.display = "none";
 			myButton.valueContent = "Show!"; 
 		}
-	};
+	});
 	
-	});	
+	;	
 
 
    
@@ -886,7 +883,6 @@ const myButton = document.getElementById("myButton");
 	};
 	
 	image2.style.display = "inline";
-		image2.style.display = "inline";
 	if ( (chiPoints < labPoints) && (chiPoints < gdPoints) && (chiPoints < sbPoints) && (chiPoints < iwPoints) && (chiPoints < leoPoints) && (chiPoints < gerPoints) && (chiPoints < sibPoints) && (chiPoints < dobPoints) && (chiPoints < borPoints) && (chiPoints < bosPoints) && (chiPoints < beaPoints) && (chiPoints < staPoints) && (chiPoints < dacPoints) && (chiPoints < schPoints) && (chiPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Chihuahua!";
 		document.getElementById("info").innerHTML = "Chihuahuas are small dogs. They are intelligent and trainable, high in energy levels, need low exercise, have high barking habits, and not so bad shedding";
@@ -915,10 +911,6 @@ const myButton = document.getElementById("myButton");
 		document.getElementById("breed").innerHTML = "You should get a German Shepherd!";
 		document.getElementById("info").innerHTML = "They are very high maintenance; they shed a bunch, bark a lot, need lots of exercise, and have a lot of energy. But hey! They love kids! German shepherds are guard dogs, normally found in use with the military and police departments. They’re loyal, easily trained, and known as one of the world’s top workers.";
 		document.getElementById('image2').src = "Images/germanshepherd_image.jpg";
-	} else if ( (sibPoints < labPoints) && (sibPoints < chiPoints) && (sibPoints < gdPoints) && (sibPoints < sbPoints) && (sibPoints < iwPoints) && (sibPoints < leoPoints) && (sibPoints < gerPoints) && (sibPoints < dobPoints) && (sibPoints < borPoints) && (sibPoints < bosPoints) && (sibPoints < beaPoints) && (sibPoints < staPoints) && (sibPoints < dacPoints) && (sibPoints < schPoints) && (sibPoints < cavPoints) ){
-		document.getElementById("breed").innerHTML = "You should get a Siberian Husky!";
-		document.getElementById("info").innerHTML = "Stubborn sweethearts. Huskies love kids, and they've got lots of energy. They need a lot of exercise, they don't shed too much, and they bark a lot";
-		document.getElementById('image2').src = "Images/husky_image.jpg";
 	} else if ( (dobPoints < labPoints) && (dobPoints < chiPoints) && (dobPoints < gdPoints) && (dobPoints < sbPoints) && (dobPoints < iwPoints) && (dobPoints < leoPoints) && (dobPoints < gerPoints) && (dobPoints < sibPoints) && (dobPoints < borPoints) && (dobPoints < bosPoints) && (dobPoints < beaPoints) && (dobPoints < staPoints) && (dobPoints < dacPoints) && (dobPoints < schPoints) && (dobPoints < cavPoints) ){
 		document.getElementById("breed").innerHTML = "You should get a Doberman Pinscher!";
 		document.getElementById("info").innerHTML = "Dobermans are intelligent and obedient dogs. They’re good with kids, have lots of energy to play, need moderate exercise, and they don’t bark so much. Plus, they barely shed!";
@@ -947,8 +939,15 @@ const myButton = document.getElementById("myButton");
 		document.getElementById("breed").innerHTML = "You should get a Cavalier King Charles Spaniel!";
 		document.getElementById("info").innerHTML = "Cavalier King Charles Spaniels are intelligent, trainable, happy, and affectionate dogs. They make great family dogs and companions. They are also a great choice for therapy dogs and have excellent obedience.";
 		document.getElementById('image2').src = "Images/cavalier_image.jpg";
+	} else { 
+		document.getElementById("breed").innerHTML = "You should get a Siberian Husky!";
+		document.getElementById("info").innerHTML = "Stubborn sweethearts. Huskies love kids, and they've got lots of energy. They need a lot of exercise, they don't shed too much, and they bark a lot";
+		document.getElementById('image2').src = "Images/husky_image.jpg";	
 	}
-}	
-	
+
+
+};
+
+
 
 
